@@ -1,0 +1,375 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.bg {
+  width: 1260px;
+  height: 880px;
+  background-color: #edf2c5;
+
+}
+.header{
+    display:absolute;
+    width:1260px;
+    height:95px;
+}
+.logo_Vegetables {
+  width: 271px;
+  height: 42px;
+  font-family: Arial;
+  font-size: 44px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.82;
+  letter-spacing: normal;
+  text-align: left;
+  color: #778a50;
+  /*margin: 53px 830px 8px 159px;*/
+  position: absolute;
+  top:53px;
+  right:830px;
+  bottom:8px;
+  left:159px;
+}
+
+.btn_facebook{
+    width: 25;
+    height: 25;
+    /*margin: 61px 336px 17px 899px;*/
+    position: absolute;
+    top:61px;
+    right:336px;
+    bottom:17px;
+    left:899px;
+}
+.btn_instagram{
+    width: 25px;
+    height: 25px;
+    /*margin: 61px 301px 17px 934px;*/
+    position: absolute;
+    top:61px;
+    right:301px;
+    bottom:17px;
+    left:934px;
+}
+
+.line_login {
+  width: 1px;
+  height: 25px;
+  background-color: #778a50;
+  /*margin: 61px 290px 17px 969px;*/
+  position: absolute;
+  top:61px;
+  right:290px;
+  bottom:17px;
+  left:969px;
+}
+
+.btn_LOGIN_box {
+  width: 60px;
+  height: 25px;
+  border-radius: 3px;
+  border: solid 1px #778a50;
+  background-color: #edf2c5;
+  /*margin: 61px 220px 17px 980px;*/
+  position: absolute;
+  top:61px;
+  right:220px;
+  bottom:17px;
+  left:980px;
+}
+.LOGIN{
+    height:2.57;
+}
+.btn_LOGIN_box p {
+  font-family: Arial;
+  font-size: 14px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 25px;
+  letter-spacing: normal;
+  text-align: left;
+  color: #778a50;
+  position: absolute;
+  right:9px;
+}
+.btn_JOIN_box{
+  width: 50px;
+  height: 25px;
+  border-radius: 3px;
+  border: solid 1px #778a50;
+  position: absolute;
+  top:61px;
+  right:160px;
+  bottom: 17px;
+  left:1050px;
+}
+.btn_JOIN_box p{
+  font-family: Arial;
+  font-size: 14px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 25px;
+  letter-spacing: normal;
+  text-align: left;
+  color: #778a50;
+  position: absolute;
+  right:9px;
+}
+.nav{
+    width:1260px;
+    height:44px;
+    margin-top:8px;
+}
+.nav_box {
+  width: 940px;
+  height: 44px;
+  border-radius: 3px;
+  background-color: #778a50; 
+  position: absolute;
+  right:160px;
+  left:160px;
+}
+.Home{
+  font-family: Arial;
+  font-size: 16px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 44px;
+  letter-spacing: normal;
+  text-align: left;
+  color: #edf2c5;
+  position: absolute;
+  left:30px;
+ 
+}
+
+.About-Us {
+  font-family: Arial;
+  font-size: 16px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 44px;
+  letter-spacing: normal;
+  text-align: left;
+  color: #edf2c5;
+  position: absolute;
+  left:140px;
+}
+
+.Vegetables {
+  font-family: Arial;
+  font-size: 16px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 44px;
+  letter-spacing: normal;
+  text-align: left;
+  color: #edf2c5;
+  position: absolute;
+  left:280px;
+}
+
+.Online {
+  font-family: Arial;
+  font-size: 16px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 44px;
+  letter-spacing: normal;
+  text-align: left;
+  color: #edf2c5;
+  position: absolute;
+  left:439px;
+}
+
+.Contact {
+  font-family: Arial;
+  font-size: 16px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 44px;
+  letter-spacing: normal;
+  text-align: left;
+  color: #edf2c5;
+  position: absolute;
+  left:554px;
+}
+
+.main-area-top{
+  width:1260px;
+  height:448px;
+  margin-top:20px;
+  display: flex; 
+  flex-direction: column;
+}
+.img_main_pumpkin {
+  width: 940px;
+  height: 448px; 
+  align-self: center;  
+}
+
+.main-area-bottom{
+  width:1260px;
+  height:235px;
+  margin-top:30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.body_box{
+    display: flex;
+    margin-left: 160px;
+}
+.body_box_vegetables {
+  width: 445px;
+  height: 45px;
+  border-radius: 3px;
+  background-color: #778a50;
+  margin-right: 50px;
+  flex-direction: row;
+}
+
+.body_box_contact {
+  width: 445px;
+  height: 45px;
+  border-radius: 3px;
+  background-color: #778a50;
+  
+}
+.body_title_vegetables {
+  font-family: Arial;
+  font-size: 16px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 45px;
+  letter-spacing: normal;
+  text-align: left;
+  color: #edf2c5;
+  margin-left: 30px;
+}
+
+.body_title_contact{
+  font-family: Arial;
+  font-size: 16px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 45px;
+  letter-spacing: normal;
+  text-align: left;
+  color: #edf2c5;
+  margin-left: 30px;
+}
+
+.body_bottom_content{
+    display: flex;
+}
+.body_img{
+    display: flex;
+    margin-left: 160px;
+    margin-top: 15px;
+}
+
+.img_vegetables_pepper{
+  width: 140px;
+  height: 140px;
+  margin-right: 12px;
+}
+
+.img_vegetables_carrot{
+  width: 140px;
+  height:140px;
+  margin-right: 12px;
+}
+
+.img_vegetables_corn{
+  width: 140px;
+  height: 140px;
+}
+
+.body_box_contact_text {
+  display: flex;
+  width: 445px;
+  height: 140px;
+  border-radius: 3px;
+  background-color: #f7fbda;
+  margin-top: 12px;
+  margin-left: 51px;
+  display: flex;
+  flex-direction:column;
+}
+
+.contact_content{
+  width: 410px;
+  height: 43px;
+  font-family: Arial;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: left;
+  color: #7d7d7d;
+  margin-left: 15px;
+  margin-top: 16px;
+  margin-right: 20px;
+  margin-bottom: 16px;
+ 
+}
+
+.line_contact_text {
+  width: 414px;
+  height: 1px;
+  background-color: #7d7d7d;
+  margin-left: 16px;
+  margin-right: 15px;
+}
+
+.body_box_contact_info{
+  width: 193px;
+  font-family: Arial;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 19px;
+  letter-spacing: normal;
+  text-align: left;
+  color: #7d7d7d;
+  margin-top: 12.5px;
+  margin-left: 15px;
+  margin-right: 237px;
+  margin-bottom: 13.5px;
+}
+
+.box_footer {
+  width: 1260px;
+  height: 60px;
+  background-color: #778a50;
+  display: flex;
+}
+
+.footer_text{
+  font-family: Arial;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #edf2c5;
+  align-self: center;
+  margin: auto;
+}
